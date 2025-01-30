@@ -1,0 +1,19 @@
+[project]
+name = "victoriametrix"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Nikita Savvin", email = "savvin.nikit@yandex.ru"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "pandas>=2.2.3",
+    "tqdm>=4.67.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

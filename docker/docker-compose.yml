@@ -1,0 +1,15 @@
+services:
+  victoria-metrics:
+    image: victoriametrics/victoria-metrics
+    container_name: victoria-metrics
+    ports:
+      - "8428:8428"
+    environment:
+      - VICTORIA_METRICS_DB_PATH=/victoria-metrics-data
+    volumes:
+      - ./victoria-metrics-data:/victoria-metrics-data
+    command:
+      - "-retentionPeriod=99y"
+    restart: always
+
+
