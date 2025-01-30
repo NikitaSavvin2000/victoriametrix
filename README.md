@@ -28,7 +28,7 @@
 1. ### Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/yourusername/infrastructure-template.git
+   git clone https://github.com/NikitaSavvin2000/victoriametrix.git
    cd infrastructure-template
 
 2. ### Соберите Docker-образ:
