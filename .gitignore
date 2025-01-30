@@ -201,3 +201,4 @@ __pycache__/
 # Папки для сборки
 build/
 dist/
+/victoria-metrics-data/
