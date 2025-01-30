@@ -34,7 +34,7 @@
 2. ### Соберите Docker-образ:
 
    ```bash
-   docker build -t my-tool .
+   docker build -t VictoriaMetrix .
 
 3. ### Запустите контейнеры с помощью Docker Compose:
    ```bash
@@ -64,12 +64,12 @@
 
 2. ### Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/infrastructure-template.git
+   git clone https://github.com/NikitaSavvin2000/victoriametrix.git
    cd infrastructure-template
    
 3. ### Соберите Docker-образ:
    ```bash
-   sudo docker build -t my-tool .
+   sudo docker build -t VictoriaMetrix .
 
 4. ### Запустите контейнеры с помощью Docker Compose:
    ```bash
